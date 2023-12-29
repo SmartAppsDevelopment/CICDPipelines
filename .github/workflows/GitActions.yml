@@ -14,8 +14,7 @@
       - name : Setup Java JDK
         uses : actions/setup-java@v3.13.0
         with :
-        java_version : '17'
-        distribution : 'adopt'
+        java-version : '17'
 
       - name : Build with Gradle
         run : .gradlew/ build
