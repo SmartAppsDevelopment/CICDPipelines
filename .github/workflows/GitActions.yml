@@ -1,10 +1,10 @@
-name : GitActions
-on :
+ name : GitActions
+ on :
   push :
     branches : [ master ]
-  pull  :
+  pull-request :
     branches : [ master ]
-jobs :
+ jobs :
   build :
     runs-on : ubuntu-latest
     steps :
